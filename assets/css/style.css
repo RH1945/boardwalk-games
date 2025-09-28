@@ -15,9 +15,22 @@
 
 /* Global Styles */
 
-.navbar {
-    background-color: #3a2620; /* dark brown */
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
 }
+
+#navbar .logo {
+    width: 30px;
+}
+
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
 
 body {
     font-family: var(--primary-font);
