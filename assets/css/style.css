@@ -19,6 +19,16 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+h1, h2 {
+    text-transform: uppercase;
+}
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+h2{
+    margin-bottom: 2rem;
+}
 
 /* Navbar */
 
@@ -40,10 +50,7 @@
 body {
     font-family: var(--primary-font);
 }
-h1, h2, h3 {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
-}
+
 /*p {*/
 /*    border: 2px solid var(--highlight-color);*/
 /*}*/
@@ -55,7 +62,16 @@ h1, h2, h3 {
 }
 
 
-/*  */
+/* services */
+#services .card {
+    margin-bottom: 1.5rem;
+
+}
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
 
 /*  */
 
