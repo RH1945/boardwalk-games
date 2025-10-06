@@ -19,6 +19,27 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+/*Custom Buttons*/
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color);
+}
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white;
+}
+.custom-button-filled {
+    boder: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+.custom-button-filled:hover {
+    boder: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
 h1, h2 {
     text-transform: uppercase;
 }
@@ -67,11 +88,8 @@ body {
     background-color: transparent;
 }
 
-/*  */
 
-/*  */
-
-/* Footer contact */
+/* Footer */
 
 #contact {
     background-color: var(--primary-color);
