@@ -87,7 +87,11 @@ body {
     color: var(--highlight-color);
     background-color: transparent;
 }
-
+.discount {
+    color: white;
+    background-color: var(--highlight-color);
+    font-weight: bold;
+}
 
 /* Footer */
 
