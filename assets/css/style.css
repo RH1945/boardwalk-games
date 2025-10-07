@@ -16,8 +16,12 @@
 /* Global Styles */
 
 .section {
-    margin-top: 2rem;
+    padding-top: 4rem;
     margin-bottom: 2rem;
+}
+body {
+    font-family: var(--primary-font);
+    padding-top: 58.5px;
 }
 /*Custom Buttons*/
 .custom-button-outline {
